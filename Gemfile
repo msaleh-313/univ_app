@@ -40,6 +40,9 @@ gem "tzinfo-data", platforms: %i[ windows jruby ]
 
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
+gem 'sassc'
+gem "materialize-sass", git: "https://github.com/Joaquinb2000/materialize-sass-rails-7.git"
+gem 'material_icons'
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"

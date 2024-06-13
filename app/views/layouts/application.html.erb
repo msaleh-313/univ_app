@@ -10,6 +10,12 @@
   </head>
   <body>
     <header>
+      <ul id="dropdown1" class="dropdown-content">
+        <li><a href="#!">one</a></li>
+        <li><a href="#!">two</a></li>
+        <li class="divider"></li>
+        <li><a href="#!">three</a></li>
+      </ul>
       <nav>
         <div class="container">
           <div class="nav-wrapper">
@@ -17,7 +23,8 @@
             <ul id="nav-mobile" class="right hide-on-med-and-down">
               <li><a href="#">Courses</a></li>
               <li><a href="#">Enrollments</a></li>
-              <li><a href="#">Account</a></li>
+              <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Account<i class="material-icons right">arrow_drop_down</i></a></li>
+
             </ul>
           </div>
         </div>
@@ -29,28 +36,28 @@
       </div>
     </main>
     <footer class="page-footer">
-          <div class="container">
-            <div class="row">
-              <div class="col l6 s12">
-                <h5 class="white-text">Tech University</h5>
-                <p class="grey-text text-lighten-4">Future of development and training</p>
-              </div>
-              <div class="col l4 offset-l2 s12">
-                <h5 class="white-text">Information</h5>
-                <ul>
-                  <li><a class="grey-text text-lighten-3" href="#!">Help</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">About</a></li>
-                  <li><a class="grey-text text-lighten-3" href="#!">Contact us </a></li>
-                </ul>
-              </div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">Tech University</h5>
+            <p class="grey-text text-lighten-4">Future of development and training</p>
           </div>
-          <div class="footer-copyright">
-            <div class="container">
-            © 2024 Tech University
-            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
-            </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Information</h5>
+            <ul>
+              <li><a class="grey-text text-lighten-3" href="#!">Help</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">About</a></li>
+              <li><a class="grey-text text-lighten-3" href="#!">Contact us </a></li>
+            </ul>
           </div>
-        </footer>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+          © 2024 Tech University
+          <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

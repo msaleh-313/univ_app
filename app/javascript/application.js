@@ -5,7 +5,12 @@ import "jquery"
 import "materialize"
 
 
-$(function() {
-    $('.dropdown-trigger').dropdown(); // Initialize dropdown functionality
-  });
+// $(function() {
+//     $('.dropdown-trigger').dropdown(); // Initialize dropdown functionality
+//   });
+
   
+  $( document ).on('turbolinks:load', function(){
+    $('.dropdown-trigger').dropdown(); // Initialize dropdown functionality
+
+  })
